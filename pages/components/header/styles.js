@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-    position: relative;
-    overflow: hidden;
-    z-index: 5;
-    background-color: #1A1A1A;
-    color: #FFF;
-    display: flex;
-    align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  background-color: #1a1a1a;
+  color: #fff;
+  display: flex;
+  align-items: center;
 `;
 
 export const HeaderInnerContainer = styled.div`
@@ -26,15 +26,15 @@ export const HeaderLogoContainer = styled.div`
   padding-left: 1rem;
   padding-right: 1rem;
 
-  @media(min-width: 361px) {
+  @media (min-width: 361px) {
     width: 16.6666666667%;
   }
 
-  @media(min-width: 1168px) {
+  @media (min-width: 1168px) {
     width: 33.3333333333%;
   }
 
-  @media(min-width: 1536px) {
+  @media (min-width: 1536px) {
     width: 25%;
   }
 
@@ -45,15 +45,17 @@ export const HeaderLogoContainer = styled.div`
 `;
 
 export const HeaderDesktopLogo = styled.img`
-    display:none;
-    @media(min-width: 640px){
-        display: block;
-    }`;
+  display: none;
+  @media (min-width: 640px) {
+    display: block;
+  }
+`;
 
 export const HeaderMobileLogo = styled.img`
-    @media(min-width: 1168px){
-        display: none;
-    }
-    @media(min-width: 640px){
-        display: none;
-    }`;
+  @media (min-width: 1168px) {
+    display: none;
+  }
+  @media (min-width: 640px) {
+    display: none;
+  }
+`;

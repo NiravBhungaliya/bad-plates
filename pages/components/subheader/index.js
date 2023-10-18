@@ -11,7 +11,7 @@ function SubHeader() {
       <SubHeaderInnerContainer>
         <SubHeaderSOTitle>
           ServiceOntario
-          <span>Automated License Plate Review</span>      
+          <span>Automated License Plate Review</span>
         </SubHeaderSOTitle>
         <SubheaderAppTitle>Automated License Plate Review</SubheaderAppTitle>
       </SubHeaderInnerContainer>

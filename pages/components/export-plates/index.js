@@ -11,13 +11,6 @@ import {
   OntarioTableScrollWrapper,
 } from "./styles";
 
-const columns = [
-    {
-        key: "bad-number-plates",
-        label: "Bad Number Plates"
-    }
-]
-
 function ExportPlates() {
   return (
     <OntarioTableContainer>

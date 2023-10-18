@@ -3,7 +3,7 @@ import {
   HeaderInnerContainer,
   HeaderLogoContainer,
   HeaderDesktopLogo,
-  HeaderMobileLogo
+  HeaderMobileLogo,
 } from "./styles";
 
 function Header() {
