@@ -73,7 +73,58 @@
   }
 }
 
-* {
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/open-sans-400/open-sans-400.woff2');
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/open-sans-600/open-sans-600.woff2');
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/open-sans-700/open-sans-700.woff2');
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/open-sans-400--italic/open-sans-400--italic.woff2');
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/raleway-modified-400/raleway-modified-400.woff2');
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/raleway-modified-600/raleway-modified-600.woff2');
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/raleway-modified-700/raleway-modified-700.woff2');
+}
+
+*,
+::after,
+::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -81,18 +132,23 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+
+  :focus {
+    outline: none;
+  }
 }
 
 a {
